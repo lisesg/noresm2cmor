@@ -545,6 +545,30 @@
                     "none"
                 ]
             },
+            "ssp585-piAerOxid":{
+                "activity_id":[
+                    "KeyCLIM"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"ssp585 simulation but without anthropogenic aerosols",
+                "experiment_id":"ssp585-piAerOxid",
+                "parent_activity_id":[
+                    "KeyCLIM"
+                ],
+                "parent_experiment_id":[
+                    "hist-piAerOxid"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "piControl-ozone":{
                 "activity_id":[
                     "KeyCLIM"
@@ -584,7 +608,7 @@
                     "KeyCLIM"
                 ],
                 "parent_experiment_id":[
-                    "piControl-ozone"
+                    "N1850vsls_tropstratchem_prep_f09_nt14_20220223_test14"
                 ],
                 "required_model_components":[
                     "AOGCM"
@@ -1025,6 +1049,54 @@
                     "none"
                 ]
             },
+            "hist-cloud2":{
+                "activity_id":[
+                    "KeyCLIM"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"historical simulation but with improved cloud processes, tuned version",
+                "experiment_id":"hist-cloud2",
+                "parent_activity_id":[
+                    "KeyCLIM"
+                ],
+                "parent_experiment_id":[
+                    "N1850_f09_tn14_20190913"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "ssp370-cloud2":{
+                "activity_id":[
+                    "KeyCLIM"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"ssp370 simulation but with improved cloud processes, tuned version",
+                "experiment_id":"ssp370-cloud2",
+                "parent_activity_id":[
+                    "KeyCLIM"
+                ],
+                "parent_experiment_id":[
+                    "hist-cloud2"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "ssp585-cloud":{
                 "activity_id":[
                     "KeyCLIM"
@@ -1041,6 +1113,30 @@
                 ],
                 "parent_experiment_id":[
                     "hist-cloud"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "ssp585-cloud2":{
+                "activity_id":[
+                    "KeyCLIM"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"ssp585 simulation but with improved cloud processes, tuned version",
+                "experiment_id":"ssp585-cloud2",
+                "parent_activity_id":[
+                    "KeyCLIM"
+                ],
+                "parent_experiment_id":[
+                    "hist-cloud2"
                 ],
                 "required_model_components":[
                     "AOGCM"
